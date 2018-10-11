@@ -1,0 +1,82 @@
+[2018-09-11 15:17:38,669]-[upload_excel_data.py]-WARNING: getTestSuiteByID({'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testsuiteid': '2'})
+[2018-09-11 15:17:38,673]-[upload_excel_data.py]-WARNING: 8000: (getTestSuiteByID) - ID 2 do not belongs to a Test Suite present on system!
+[2018-09-11 15:17:38,674]-[upload_excel_data.py]-ERROR: father_id is not auth
+[2018-09-11 15:20:06,757]-[upload_excel_data.py]-INFO: 本次操作共提交 10 条数据，成功导入 10 条，失败 0 条
+[2018-09-11 15:22:20,210]-[upload_excel_data.py]-INFO: 本次操作共提交 10 条数据，成功导入 10 条，失败 0 条
+[2018-09-11 15:24:00,314]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': '登入appadmin后台', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1.登入http://appadmin-admin.databiger.com', 'expected_results': '1、显示广告位管理信息', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-广告位配置', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:00,512]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': '广告位配置\n（广告位置配置在首页）', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、点击【新增】', 'expected_results': '1、广告管理显示新增的广告信息', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-新增广告', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:00,715]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': '新增广告', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、点击【推荐】', 'expected_results': '1、app广告页首页固定第四个位置', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-App前端显示广告', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:00,922]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': '新增广告', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、重复用例【新增广告】', 'expected_results': '1、首页广告随机变更，每次刷新，替换新的广告位', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-广告位信息流', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:01,117]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': 'App前端显示广告', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、显示广告位后', 'expected_results': '1、广告位可用', 'execution_type': '1'}, {'step_number': '2', 'actions': '2、点击广告', 'expected_results': '2、H5信息显示正常', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-广告位H5', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:01,320]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided (solar).
+createTestCase({'preconditions': '首页-广告位位置', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、登入appadmin后台', 'expected_results': '1、广告页位置不显示', 'execution_type': '1'}, {'step_number': '2', 'actions': '2、下架所有的广告位', 'expected_results': '2、并且默认位置的数据为精选方案', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '首页-没有广告位', 'testsuiteid': '21', 'testprojectid': '10', 'authorlogin': 'solar', 'summary': '无'})
+[2018-09-11 15:24:01,344]-[upload_excel_data.py]-INFO: 本次操作共提交 6 条数据，成功导入 0 条，失败 6 条
+[2018-09-11 15:25:25,107]-[upload_excel_data.py]-INFO: 本次操作共提交 6 条数据，成功导入 6 条，失败 0 条
+[2018-09-11 15:26:16,907]-[upload_excel_data.py]-WARNING: TestCase '专家-广告位配置' Parameter 'preconditions' is null
+[2018-09-11 15:26:18,402]-[upload_excel_data.py]-WARNING: TestCase '专家-专家默认显示' Parameter 'preconditions' is null
+[2018-09-11 15:26:18,630]-[upload_excel_data.py]-WARNING: TestCase '专家-专家栏-更多' Parameter 'preconditions' is null
+[2018-09-11 15:26:19,709]-[upload_excel_data.py]-WARNING: TestCase '专家-专家配置' Parameter 'preconditions' is null
+[2018-09-11 15:26:20,346]-[upload_excel_data.py]-WARNING: TestCase '专家-专家内容显示' Parameter 'preconditions' is null
+[2018-09-11 15:26:20,862]-[upload_excel_data.py]-INFO: 本次操作共提交 22 条数据，成功导入 22 条，失败 0 条
+[2018-09-11 15:43:11,505]-[upload_excel_data.py]-WARNING: TestCase '数据服务table配置' Parameter 'preconditions' is null
+[2018-09-11 15:43:12,185]-[upload_excel_data.py]-WARNING: TestCase '快捷入口显示' Parameter 'preconditions' is null
+[2018-09-11 15:43:12,635]-[upload_excel_data.py]-WARNING: TestCase '同赔回查' Parameter 'preconditions' is null
+[2018-09-11 15:43:12,856]-[upload_excel_data.py]-WARNING: TestCase '数据提点' Parameter 'preconditions' is null
+[2018-09-11 15:43:13,064]-[upload_excel_data.py]-WARNING: TestCase '赛事库' Parameter 'preconditions' is null
+[2018-09-11 15:43:13,906]-[upload_excel_data.py]-WARNING: TestCase '比赛进入' Parameter 'preconditions' is null
+[2018-09-11 15:43:14,839]-[upload_excel_data.py]-INFO: 本次操作共提交 16 条数据，成功导入 16 条，失败 0 条
+[2018-09-11 15:52:45,222]-[upload_excel_data.py]-WARNING: TestCase '赛程-滚球tab' Parameter 'preconditions' is null
+[2018-09-11 15:52:45,747]-[upload_excel_data.py]-WARNING: TestCase '查看即时列表' Parameter 'preconditions' is null
+[2018-09-11 15:52:45,969]-[upload_excel_data.py]-WARNING: TestCase '查看赛果列表' Parameter 'preconditions' is null
+[2018-09-11 15:52:46,178]-[upload_excel_data.py]-WARNING: TestCase '查看关注' Parameter 'preconditions' is null
+[2018-09-11 15:52:46,180]-[upload_excel_data.py]-WARNING: TestCase '查看关注' Parameter 'authorlogin' is null
+[2018-09-11 15:52:46,250]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided ().
+createTestCase({'preconditions': '', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '查看关注列表', 'expected_results': '1、未登录情况跳转登录页面', 'execution_type': '1'}, {'step_number': '2', 'actions': '查看关注列表', 'expected_results': '2、登录情况下，显示所有关注赛事', 'execution_type': '1'}, {'step_number': '3', 'actions': '查看关注列表', 'expected_results': '3、点击取消关注，可以取消关注', 'execution_type': '1'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '查看关注', 'testsuiteid': '24', 'testprojectid': '10', 'authorlogin': '', 'summary': '无'})
+[2018-09-11 15:52:46,394]-[upload_excel_data.py]-WARNING: TestCase '筛选赛事' Parameter 'preconditions' is null
+[2018-09-11 15:52:46,621]-[upload_excel_data.py]-WARNING: TestCase '赛事详情-资讯' Parameter 'preconditions' is null
+[2018-09-11 15:52:46,901]-[upload_excel_data.py]-WARNING: TestCase '赛事详情 - 队名' Parameter 'preconditions' is null
+[2018-09-11 15:52:47,123]-[upload_excel_data.py]-WARNING: TestCase '赛事详情 - 指数 - 定制我的博彩公司' Parameter 'preconditions' is null
+[2018-09-11 15:52:47,203]-[upload_excel_data.py]-INFO: 本次操作共提交 10 条数据，成功导入 9 条，失败 1 条
+[2018-09-11 15:57:27,575]-[upload_excel_data.py]-WARNING: TestCase '热门圈' Parameter 'preconditions' is null
+[2018-09-11 15:57:27,792]-[upload_excel_data.py]-WARNING: TestCase '新增圈子' Parameter 'preconditions' is null
+[2018-09-11 15:57:28,016]-[upload_excel_data.py]-WARNING: TestCase '圈子简介' Parameter 'preconditions' is null
+[2018-09-11 15:57:28,019]-[upload_excel_data.py]-WARNING: TestCase '圈子简介' Parameter 'authorlogin' is null
+[2018-09-11 15:57:28,101]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided ().
+createTestCase({'preconditions': '', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '查看圈子简介', 'expected_results': '1、圈子名称，最多显示一行，超出部分使用…代替', 'execution_type': 'Param not defind'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '圈子简介', 'testsuiteid': '25', 'testprojectid': '10', 'authorlogin': '', 'summary': '无'})
+[2018-09-11 15:57:28,632]-[upload_excel_data.py]-WARNING: TestCase '查看帖子详情' Parameter 'preconditions' is null
+[2018-09-11 15:57:28,837]-[upload_excel_data.py]-WARNING: TestCase '发帖' Parameter 'preconditions' is null
+[2018-09-11 15:57:29,043]-[upload_excel_data.py]-WARNING: TestCase '帖子评论' Parameter 'preconditions' is null
+[2018-09-11 15:57:29,246]-[upload_excel_data.py]-WARNING: TestCase '帖子点赞' Parameter 'preconditions' is null
+[2018-09-11 15:57:29,653]-[upload_excel_data.py]-WARNING: TestCase '帖子分享' Parameter 'preconditions' is null
+[2018-09-11 15:57:30,299]-[upload_excel_data.py]-WARNING: TestCase '查看用户个人主页' Parameter 'preconditions' is null
+[2018-09-11 15:57:30,506]-[upload_excel_data.py]-WARNING: TestCase '当前登录用户编辑自己个人主页签名' Parameter 'preconditions' is null
+[2018-09-11 15:57:30,728]-[upload_excel_data.py]-WARNING: TestCase '查看帖子详情' Parameter 'preconditions' is null
+[2018-09-11 15:57:30,817]-[upload_excel_data.py]-INFO: 本次操作共提交 16 条数据，成功导入 15 条，失败 1 条
+[2018-09-11 15:57:39,040]-[upload_excel_data.py]-WARNING: TestCase '热门圈' Parameter 'preconditions' is null
+[2018-09-11 15:57:39,253]-[upload_excel_data.py]-WARNING: TestCase '新增圈子' Parameter 'preconditions' is null
+[2018-09-11 15:57:39,467]-[upload_excel_data.py]-WARNING: TestCase '圈子简介' Parameter 'preconditions' is null
+[2018-09-11 15:57:39,469]-[upload_excel_data.py]-WARNING: TestCase '圈子简介' Parameter 'authorlogin' is null
+[2018-09-11 15:57:39,537]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided ().
+createTestCase({'preconditions': '', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '查看圈子简介', 'expected_results': '1、圈子名称，最多显示一行，超出部分使用…代替', 'execution_type': 'Param not defind'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '圈子简介', 'testsuiteid': '25', 'testprojectid': '10', 'authorlogin': '', 'summary': '无'})
+[2018-09-11 15:57:40,100]-[upload_excel_data.py]-WARNING: TestCase '查看帖子详情' Parameter 'preconditions' is null
+[2018-09-11 15:57:40,371]-[upload_excel_data.py]-WARNING: TestCase '发帖' Parameter 'preconditions' is null
+[2018-09-11 15:57:40,584]-[upload_excel_data.py]-WARNING: TestCase '帖子评论' Parameter 'preconditions' is null
+[2018-09-11 15:57:40,804]-[upload_excel_data.py]-WARNING: TestCase '帖子点赞' Parameter 'preconditions' is null
+[2018-09-11 15:57:41,225]-[upload_excel_data.py]-WARNING: TestCase '帖子分享' Parameter 'preconditions' is null
+[2018-09-11 15:57:41,877]-[upload_excel_data.py]-WARNING: TestCase '查看用户个人主页' Parameter 'preconditions' is null
+[2018-09-11 15:57:42,087]-[upload_excel_data.py]-WARNING: TestCase '当前登录用户编辑自己个人主页签名' Parameter 'preconditions' is null
+[2018-09-11 15:57:42,297]-[upload_excel_data.py]-WARNING: TestCase '查看帖子详情' Parameter 'preconditions' is null
+[2018-09-11 15:57:42,379]-[upload_excel_data.py]-INFO: 本次操作共提交 16 条数据，成功导入 15 条，失败 1 条
+[2018-09-11 16:06:01,567]-[upload_excel_data.py]-WARNING: TestCase '查看周盈利榜' Parameter 'preconditions' is null
+[2018-09-11 16:06:01,649]-[upload_excel_data.py]-INFO: 本次操作共提交 3 条数据，成功导入 3 条，失败 0 条
+[2018-09-11 16:07:55,588]-[upload_excel_data.py]-WARNING: TestCase '会员等级' Parameter 'authorlogin' is null
+[2018-09-11 16:07:55,654]-[upload_excel_data.py]-ERROR: 10000: (createTestCase) - Cannot Find User Login provided ().
+createTestCase({'preconditions': '后台配好', 'importance': 3, 'executiontype': 2, 'steps': [{'step_number': '1', 'actions': '1、显示方式', 'expected_results': '1、默认为当前用户会员等级，显示距离下级会员相差多少积分，进度条上展示当前积分', 'execution_type': 'Param not defind'}, {'step_number': '2', 'actions': '4、点击等级等级规则', 'expected_results': '2、快速升级中内容 取后台配置数据（取快速升级类且已启用）（若仅有主标题时，仅显示一行；若包含主标题和副 标题，则显示两行）', 'execution_type': 'Param not defind'}, {'step_number': '3', 'actions': '5、验证等级积分是否增加', 'expected_results': '3、快速升级 日常任务：图标，任务名，任务说明，经验值，去完成（后台配置数据）', 'execution_type': 'Param not defind'}], 'devKey': '258da711c0de7c0f0a46ffe96315195e', 'testcasename': '会员等级', 'testsuiteid': '27', 'testprojectid': '10', 'authorlogin': '', 'summary': 'user-admin.databiger.com后台会员等级管理添加'})
+[2018-09-11 16:07:55,788]-[upload_excel_data.py]-WARNING: TestCase '关注的人' Parameter 'preconditions' is null
+[2018-09-11 16:07:58,212]-[upload_excel_data.py]-WARNING: TestCase '分享给朋友' Parameter 'preconditions' is null
+[2018-09-11 16:07:58,509]-[upload_excel_data.py]-INFO: 本次操作共提交 27 条数据，成功导入 26 条，失败 1 条
